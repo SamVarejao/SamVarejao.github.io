@@ -363,7 +363,7 @@ ul li {
   }
 
   .projects {
-    grid-template-rows: 60px 500px 500px; /*tile-height, card-height, card-height. Just add rows as needed*/
+    grid-template-rows: 60px 500px ;/*tile-height, card-height, card-height. Just add rows as needed*/
     grid-template-columns: 1fr 500px 1fr; /*margin, card-width, margin*/
   }
   .projectA {
