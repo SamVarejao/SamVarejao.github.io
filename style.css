@@ -389,10 +389,6 @@ ul li {
   }
 }
 @media only screen and (max-width: 550px) {
-  body {
-    height: calc(100vh - 60px);
-    grid-template-rows: 93vh 7vh;
-  }
   .about {
     grid-template-columns: 1fr 350px 1fr;
   }
