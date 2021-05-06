@@ -39,6 +39,9 @@
   --secondary: rgb(60, 214, 130);
 }
 /*------------------------------------------*/
+html {
+ overscroll-behavior: contain;
+}
 body {
   margin: 0;
   height: 100%;
