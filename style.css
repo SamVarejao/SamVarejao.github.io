@@ -326,7 +326,6 @@ ul li {
   }
 
   .about {
-    padding-top: 20px;
     grid-template-columns: 1fr 500px 1fr;
     grid-template-rows: 100px 50px 200px 30px auto;
   }
