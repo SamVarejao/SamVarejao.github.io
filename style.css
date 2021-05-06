@@ -389,6 +389,11 @@ ul li {
   }
 }
 @media only screen and (max-width: 550px) {
+  body {
+
+    grid-template-rows: calc(93vh - 60px) 7vh;
+    padding-top: 60px;
+  }
   .about {
     grid-template-columns: 1fr 350px 1fr;
   }
