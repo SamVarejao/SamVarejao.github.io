@@ -390,7 +390,7 @@ ul li {
 }
 @media only screen and (max-width: 550px) {
   body {
-    grid-template-rows: 85vh auto;
+    grid-template-rows: 87vh 13vh;
   }
   .about {
     grid-template-columns: 1fr 350px 1fr;
