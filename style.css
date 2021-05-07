@@ -393,6 +393,12 @@ ul li {
     height: calc(var(--vh, 1vh) * 100);
     grid-template-rows: 93% auto;
   }
+.nav a:hover {
+  animation-iteration-count: 3;
+}
+.nav a p:hover {
+  animation-iteration-count: 3;
+}
   .about {
     grid-template-columns: 1fr 350px 1fr;
   }
