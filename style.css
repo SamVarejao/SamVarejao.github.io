@@ -6,14 +6,20 @@
   0% {
     background-color: var(--main);
   }
-  50% {
+  33% {
     background-color: var(--main);
   }
-  51% {
+  34% {
     background-color: var(--secondary);
   }
-  100% {
+  67% {
     background-color: var(--secondary);
+  } 
+ 68% {
+    background-color: var(--main);
+  }
+  100% {
+    background-color: var(--main);
   }
 }
 @keyframes fontBlip {
@@ -21,16 +27,24 @@
     color: var(--secondary);
     font-weight: bold;
   }
-  50% {
+  33% {
     color: var(--secondary);
     font-weight: bold;
   }
-  51% {
+  34% {
     color: var(--main);
     font-weight: bold;
   }
-  100% {
+  67% {
     color: var(--main);
+    font-weight: bold;
+  }
+68% {
+    color: var(--secondary);
+    font-weight: bold;
+  }
+  100% {
+    color: var(--secondary);
     font-weight: bold;
   }
 }
