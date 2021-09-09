@@ -73,7 +73,7 @@ a:active {
 }
 ul li {
   color: var(--secondary);
-  list-style-type: none;
+  list-style-type:circle;
 }
 .typingEff {
   background-color: var(--secondary);
@@ -143,7 +143,7 @@ ul li {
   position: absolute;
   left: 0;
   top: 0;
-  height: 300vh; /* VERY IMPORTANT !!!!! For the overlay to cover the whole page be sure to sum all the length of the .main grid */
+  height: 400vh; /* VERY IMPORTANT !!!!! For the overlay to cover the whole page be sure to sum all the length of the .main grid */
   width: 100%;
   background: repeating-linear-gradient(
     transparent,
@@ -213,11 +213,11 @@ ul li {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-rows: 30% auto;
+  grid-template-rows: 20% auto;
   grid-template-columns: 1fr 1fr;
   border: 4px solid var(--secondary);
   width: 350px;
-  height: 250px;
+  height: 400px;
 }
 .skillsTable h2 {
   color: var(--main);
@@ -257,7 +257,7 @@ ul li {
   height: auto;
   min-height: 93vh;
   display: grid;
-  grid-template-rows: 60px 500px; /*tile-height, card-height, card-height. Just add rows as needed*/
+  grid-template-rows: 60px 700px 700px; /*tile-height, card-height, card-height. Just add rows as needed*/
   grid-template-columns: 15vw 1fr 15px 1fr 15vw; /*margin, card-width, space, card-width, margin*/
 }
 .projects h2 {
@@ -297,6 +297,10 @@ ul li {
   grid-row: 2;
   grid-column: 4;
 }
+.projectC {
+  grid-row: 3;
+  grid-column: 2;
+}
 
 @media only screen and (max-width: 1100px) {
   .about {
@@ -320,7 +324,7 @@ ul li {
   }
   .main::after {
     /*Because in this viewport the projects list is more...vertical? we need to add height to the overlay effect*/
-    height: 300vh; /*So remember to add height as the list gets bigger*/
+    height: 500vh; /*So remember to add height as the list gets bigger*/
   }
 
   .about {
@@ -360,7 +364,7 @@ ul li {
   }
 
   .projects {
-    grid-template-rows: 60px 500px; /*tile-height, card-height, card-height. Just add rows as needed*/
+    grid-template-rows: 60px 600px 600px 600px; /*tile-height, card-height, card-height. Just add rows as needed*/
     grid-template-columns: 1fr 500px 1fr; /*margin, card-width, margin*/
   }
   .projectA {
@@ -370,6 +374,10 @@ ul li {
   }
   .projectB {
     grid-row: 3;
+    grid-column: 2;
+  }
+  .projectC {
+    grid-row: 4;
     grid-column: 2;
   }
 }
